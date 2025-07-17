@@ -1,8 +1,7 @@
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-from common.utils import Utils
-import plotly.graph_objects as go
+import pandas           as pd
+import streamlit        as st
+from common.utils       import Utils
+import plotly.express   as px
 
 utils = Utils()
 

@@ -1,8 +1,5 @@
-import requests
 import pandas               as pd
-import streamlit            as st
 from common.utils           import Utils
-import plotly.express       as plot
 from common.conexao_mysql   import Looqbox_BD
 
 cursor =    Looqbox_BD().cursor
