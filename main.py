@@ -109,3 +109,5 @@ imdb_movies = utils.select(
     return_df = True
 )
 # TODO Executar no Console: streamlit run imdb.py
+
+Looqbox_BD().encerrar_conexao_ao_banco()
